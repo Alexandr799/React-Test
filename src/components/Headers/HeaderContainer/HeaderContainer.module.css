@@ -1,0 +1,51 @@
+.exit {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.exitMobile {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.backMobile {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: none;
+}
+
+.back {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.header {
+    background-color: #512689;
+}
+
+@media (max-width:650px) {
+
+    .back,
+    .exit {
+        display: none;
+    }
+
+    .backMobile,
+    .exitMobile {
+        top:20px;
+        display: block;
+    }
+}

@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.input {
+    padding: 16px;
+    border-radius: 8px;
+    background: #F8F8F8;
+    border: 1px solid rgb(207, 207, 207);
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.input:focus-visible {
+    border: 1px solid grey;
+}
+
+.input::placeholder {
+    color: #808185;
+}
+
+.inputError,
+.inputError:focus-visible {
+    border-color: #FF6161;
+}
+
+.buttonHide {
+    position: absolute;
+    top:50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

@@ -1,0 +1,40 @@
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.wrapper {
+    width: 500px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linkReg {
+    color: #512689;
+
+}
+
+.formWrapper {
+    margin-bottom: 15px;
+}
+
+.linkReg:hover,button:focus-visible  {
+    color: #7b48bd;
+}
+
+
+@media (max-width:580px) {
+    .wrapper {
+        position: static;
+        width: auto;
+        max-width: 500px;
+        padding-top: 64px;
+        margin: 0 auto;
+        transform: none;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

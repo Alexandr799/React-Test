@@ -1,0 +1,71 @@
+.container {
+    padding-top: 48px;
+    padding-bottom: 70px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 124px;
+    height: 124px;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0.996045px 3.98418px rgba(51, 51, 51, 0.15);
+    border-radius: 10px;
+}
+
+.userLink::after {
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+.userLink::after:hover {
+    outline: 1px solid #512689;
+}
+
+.like {
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+    z-index: 2;
+
+}
+
+.name {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.paginationWrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.errorContent {
+    text-align: center;
+}
+
+.error {
+    color: #FF6161;
+    text-align: center;
+    font-size: 20px;
+}
+
+.errorExit {
+    color: #512689;
+    text-decoration: underline;
+}

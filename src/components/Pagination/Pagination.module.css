@@ -1,0 +1,34 @@
+.paginationContainer {
+    display: flex;
+}
+
+.pageLinkClassName {
+    margin-right: 5px;
+    padding: 7px;
+    border: 1px solid #512689;
+    color: #512689;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.activeLinkClassName {
+    color: #FFFFFF;
+    background-color: #512689;
+    cursor: pointer;
+}
+
+.breakClassName {
+    margin-right: 5px;
+}
+
+.previousClassName {
+    color: #512689;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nextClassName {
+    color: #512689;
+    margin-left: 15px;
+    cursor: pointer;
+}
